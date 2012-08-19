@@ -1,0 +1,53 @@
+/*
+canvas {
+	width:0;
+	height:0;
+}
+*/
+.dialogbox {
+	bottom: 700px;
+	position:relative;
+	.avatar {
+		bottom: -200px;
+		position:relative;
+	}
+	.text {
+		font-family:Pixel-art;
+		font-size:20px;
+		color:white;
+		padding:10px 10px 10px 330px;
+		height:150px;
+		background-image:url(../content/dialogbox/cue.png);
+		background-repeat:repeat-x;
+		clear:both;
+		text-shadow: black 0.1em 0.1em 0.1em;
+		width:100%;
+	}
+	.name {
+		left:350px;
+		position:relative;
+		.left, .right, .middle {
+			height:35px;
+			float:left;
+		}
+		.left, .right {
+			width:15px;
+		}
+		.left {
+			background-image:url(../content/dialogbox/namel.png);
+		}
+		.middle {
+			background-image:url(../content/dialogbox/namem.png);
+			padding:0px 20px 0px 20px;
+			color:white;
+			.name_content {
+				font-family:Pixel-art;
+				padding-top:10px;
+				text-shadow: black 0.1em 0.1em 0.1em;
+			}
+		}
+		.right {
+			background-image:url(../content/dialogbox/namer.png);
+		}
+	}
+}
